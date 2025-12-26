@@ -132,7 +132,7 @@ For smart models like Random Forest, Decision Trees, they'll figure it out and i
 
 For math models like Logistic Regression, SVM, Neural Networks, this can cause issues (multicollinearity). The model gets confused about which of the 3 "Area" features is essentially responsible for the result.
 
-## Preprocessing
+## Processing
 Data has different scales (e.g., Area is 30,000 but Compactness is 0.8), we need to scale the data. If we don't, the model will think Area is the most important feature just because it has huge numbers.  
 
 We are required to split the dataset into 3 folds. (k-fold: 3)
